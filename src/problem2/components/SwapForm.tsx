@@ -271,7 +271,7 @@ export default function SwapForm() {
           <Button
             type="submit"
             disabled={swapMutation.isPending}
-            className="w-full py-3 sm:py-4 text-sm sm:text-base bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 active:from-purple-800 active:to-pink-800 disabled:from-gray-400 disabled:to-gray-400 dark:disabled:from-gray-700 dark:disabled:to-gray-700 text-white font-bold transition-all duration-200 shadow-lg hover:shadow-purple-500/50"
+            className="w-full py-3 sm:py-4 text-sm sm:text-base bg-linear-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 active:from-purple-800 active:to-pink-800 disabled:from-gray-400 disabled:to-gray-400 dark:disabled:from-gray-700 dark:disabled:to-gray-700 text-white font-bold transition-all duration-200 shadow-lg hover:shadow-purple-500/50"
           >
             {swapMutation.isPending ? (
               <span className="flex items-center justify-center gap-2">

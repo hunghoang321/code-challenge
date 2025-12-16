@@ -119,7 +119,7 @@ export default function TokenSelector({
           </Button>
         </PopoverTrigger>
         <PopoverContent
-          className="w-[var(--radix-popover-trigger-width)] p-0 bg-white dark:bg-gray-800 border-gray-200 dark:border-gray-700"
+          className="w-(--radix-popover-trigger-width) p-0 bg-white dark:bg-gray-800 border-gray-200 dark:border-gray-700"
           align="start"
         >
           <Command className="bg-transparent" shouldFilter={false}>
@@ -129,7 +129,7 @@ export default function TokenSelector({
               value={search}
               onValueChange={setSearch}
             />
-            <CommandList className="max-h-[300px]">
+            <CommandList className="max-h-75">
               <CommandEmpty className="py-6 text-center text-gray-500 dark:text-gray-400">
                 No token found.
               </CommandEmpty>
