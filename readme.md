@@ -43,10 +43,8 @@ A responsive React token swap interface with real-time price calculations.
 
 **Features:**
 - 🌓 Light/dark mode toggle
-- 📱 Mobile-first (320px+)
 - ⚡ Real API data with loading/error states
 - ✅ Click-to-validate with inline errors
-- 🖼️ Token icons from CDN with fallback
 
 ```bash
 cd src/problem2 && npm install && npm run dev
